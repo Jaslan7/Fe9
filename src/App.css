@@ -26,6 +26,7 @@ a{
   color: black;
   margin: 0 20px;
 }
+
 #footer{
   background: #000;
   animation: 3s footer 3 linear;
@@ -34,6 +35,9 @@ a{
 .footer{
   color: white;
   padding: 30px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 @keyframes footer {
@@ -44,5 +48,24 @@ a{
   100%{
     transform: translateY(0);
   }
+
+  100%{
+    transform: translateY(0);
+  }
 }
 
+.footer a{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  margin: 7px 0;
+  color: white;
+  transition: .4s;
+  text-decoration: none;
+}
+
+.footer a:hover{
+  color: blue;
+  border-bottom: 2px solid blue;
+}
