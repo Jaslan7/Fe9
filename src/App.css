@@ -1,1 +1,21 @@
 
+#footer{
+  background: #000;
+  animation: 3s footer 3 linear;
+}
+
+.footer{
+  color: white;
+  padding: 30px 0;
+}
+
+@keyframes footer {
+  0%{
+    transform: translateY(-1000px);
+  }
+
+  100%{
+    transform: translateY(0);
+  }
+}
+
